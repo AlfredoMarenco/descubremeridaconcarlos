@@ -442,6 +442,19 @@ p {
   z-index: 2;
 }
 
+#javier-img {
+  height: 85%;
+  width: auto;
+  max-width: 90%;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  object-fit: contain;
+  object-position: bottom center;
+  border-radius: 10px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, transparent 15%);
+}
+
 /* Legal Pages Standard Layout */
 .legal-page {
   padding-top: 120px;
